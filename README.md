@@ -16,4 +16,7 @@
   
     [view addSubview:[[CBRedDot alloc]init]];
 
+# 效果图
+![](https://github.com/woodjobber/CBRedDot/blob/master/reddot.gif)
+
 ```
