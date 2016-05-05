@@ -1,2 +1,2 @@
 # CBRedDot
-小红点
+小红点 - RedDot
