@@ -20,7 +20,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     UIView *instanceView = [[UIView alloc]init];
-    instanceView.frame = CGRectMake(100, 100, 100, 100);
+    instanceView.frame = CGRectMake(30, 100, 100, 100);
     instanceView.backgroundColor = [UIColor orangeColor];
     
     [self.view addSubview:instanceView];
@@ -32,7 +32,7 @@
     [self.view addSubview:instanceView2];
     
     UIView *instanceView3 = [[UIView alloc]init];
-    instanceView3.frame = CGRectMake(100, 300, 100, 100);
+    instanceView3.frame = CGRectMake(30, 300, 100, 100);
     instanceView3.backgroundColor = [UIColor brownColor];
     
     [self.view addSubview:instanceView3];
@@ -44,10 +44,18 @@
     [self.view addSubview:instanceView4];
     
     UIView *instanceView5 = [[UIView alloc]init];
-    instanceView5.frame = CGRectMake(250, 500, 100, 100);
+    instanceView5.frame = CGRectMake(30, 500, 100, 100);
     instanceView5.backgroundColor = [UIColor blueColor];
     
     [self.view addSubview:instanceView5];
+    
+    
+    UIView *instanceView6 = [[UIView alloc]init];
+    instanceView6.frame = CGRectMake(250, 500, 100, 100);
+    instanceView6.backgroundColor = [UIColor blueColor];
+    
+    [self.view addSubview:instanceView6];
+    
     
     //创建小红点 并添加到 视图上
     [instanceView addSubview:[[CBRedDot alloc]init]];
@@ -74,6 +82,11 @@
     redDot5.verticalAlignment = CBRedDotViewVerticalAlignmentMiddle;
     redDot5.horizontalAlignment = CBRedDotViewHorizontalAlignmentLeft;
     [instanceView5 addSubview:redDot5];
+    
+    CBRedDot *redDot6 = [[CBRedDot alloc]init];
+    redDot6.verticalAlignment = CBRedDotViewVerticalAlignmentBottom;
+    redDot6.horizontalAlignment = CBRedDotViewHorizontalAlignmentLeft;
+    [instanceView6 addSubview:redDot6];
     
     
     
