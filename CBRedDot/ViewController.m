@@ -88,8 +88,6 @@
     redDot6.horizontalAlignment = CBRedDotViewHorizontalAlignmentLeft;
     [instanceView6 addSubview:redDot6];
     
-    
-    
 }
 
 - (void)didReceiveMemoryWarning {

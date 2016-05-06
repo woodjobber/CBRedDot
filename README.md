@@ -2,12 +2,10 @@
 小红点 - RedDot
 
 # 非常简单的使用 -- 最少可一句代码搞定
-
 ```
-
- 	UIView *instanceView = [[UIView alloc]init];
-    instanceView.frame = CGRectMake(30, 100, 100, 100);
-    instanceView.backgroundColor = [UIColor orangeColor];
+	UIView *instanceView = [[UIView alloc]init];
+ 	instanceView.frame = CGRectMake(30, 100, 100, 100);
+ 	instanceView.backgroundColor = [UIColor orangeColor];
     
     [self.view addSubview:instanceView];
     
@@ -74,8 +72,14 @@
     redDot6.horizontalAlignment = CBRedDotViewHorizontalAlignmentLeft;
     [instanceView6 addSubview:redDot6];
 
-
 ```
+# 可选位置
+CBRedDotViewHorizontalAlignment     	| CBRedDotViewVerticalAlignment 
+--------------------------------------	| ----------------------------------- 
+CBRedDotViewHorizontalAlignmentNone 	| CBRedDotViewVerticalAlignmentNone  
+CBRedDotViewHorizontalAlignmentLeft 	| CBRedDotViewVerticalAlignmentTop  
+CBRedDotViewHorizontalAlignmentCenter 	| CBRedDotViewVerticalAlignmentMiddle  
+CBRedDotViewHorizontalAlignmentRight 	| CBRedDotViewVerticalAlignmentBottom 
 
 # 效果图
 
