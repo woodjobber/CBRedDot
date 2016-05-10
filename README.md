@@ -82,5 +82,4 @@ CBRedDotViewHorizontalAlignmentCenter 	| CBRedDotViewVerticalAlignmentMiddle
 CBRedDotViewHorizontalAlignmentRight 	| CBRedDotViewVerticalAlignmentBottom 
 
 # 效果图
-
 ![](https://github.com/woodjobber/CBRedDot/blob/master/reddot.gif)

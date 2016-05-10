@@ -148,6 +148,7 @@
     backgroundLayer.path = path.CGPath;
     borderLayer.path = path.CGPath;
     glossMaskLayer.path = [UIBezierPath bezierPathWithRoundedRect:CGRectInset(self.bounds, _borderWidth/2, _borderWidth/2) cornerRadius:_cornerRadius].CGPath;
+    [self autoSetRedDotFrame];
 }
 
 #pragma mark -
